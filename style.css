@@ -1,0 +1,9 @@
+
+body { font-family: Arial; margin: 0; padding: 0; background: #fdf6f9; }
+header { background: navy; color: rose; padding: 1em; text-align: center; }
+main { display: flex; flex-wrap: wrap; }
+#product-container { flex: 3; padding: 1em; }
+#cart-panel { flex: 1; background: pink; padding: 1em; }
+#payment-success { display: none; opacity: 0; transition: opacity 1s ease-in-out; background: #e0ffe0; padding: 1em; margin-top: 1em; }
+#payment-success.show { display: block; opacity: 1; }
+.product { border: 1px solid #ccc; margin: 1em; padding: 1em; background: white; }
